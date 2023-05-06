@@ -1,19 +1,19 @@
-[0504/224455.424:ERROR:gl_factory.cc(120)] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=default)].
-[0504/224455.433:ERROR:(-1)] Check failed: false. 
-[0504/224455.543:ERROR:gpu_channel_manager.cc(909)] Failed to create GLES3 context, fallback to GLES2.
-[0504/224455.543:ERROR:(-1)] Check failed: false. 
-[0504/224455.543:ERROR:gpu_channel_manager.cc(920)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
-[0504/224455.543:ERROR:shared_image_stub.cc(518)] SharedImageStub: unable to create context
-[0504/224455.544:ERROR:gpu_channel.cc(608)] GpuChannel: Failed to create SharedImageStub
-[0504/224455.544:ERROR:(-1)] Check failed: false. 
-[0504/224455.544:ERROR:gpu_channel_manager.cc(909)] Failed to create GLES3 context, fallback to GLES2.
-[0504/224455.544:ERROR:(-1)] Check failed: false. 
-[0504/224455.544:ERROR:gpu_channel_manager.cc(920)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
-[0504/224455.544:ERROR:shared_image_stub.cc(518)] SharedImageStub: unable to create context
-[0504/224455.544:ERROR:gpu_channel.cc(608)] GpuChannel: Failed to create SharedImageStub
-[0504/224455.551:ERROR:(-1)] Check failed: false. 
-[0504/224455.551:ERROR:gpu_channel_manager.cc(909)] Failed to create GLES3 context, fallback to GLES2.
-[0504/224455.551:ERROR:(-1)] Check failed: false. 
-[0504/224455.551:ERROR:gpu_channel_manager.cc(920)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
-[0504/224455.551:ERROR:shared_image_stub.cc(518)] SharedImageStub: unable to create context
-[0504/224455.551:ERROR:gpu_channel.cc(608)] GpuChannel: Failed to create SharedImageStub
+[0506/175511.398:ERROR:gl_factory.cc(120)] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=default)].
+[0506/175511.410:ERROR:(-1)] Check failed: false. 
+[0506/175511.528:ERROR:gpu_channel_manager.cc(909)] Failed to create GLES3 context, fallback to GLES2.
+[0506/175511.528:ERROR:(-1)] Check failed: false. 
+[0506/175511.528:ERROR:gpu_channel_manager.cc(920)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[0506/175511.528:ERROR:shared_image_stub.cc(518)] SharedImageStub: unable to create context
+[0506/175511.528:ERROR:gpu_channel.cc(608)] GpuChannel: Failed to create SharedImageStub
+[0506/175511.528:ERROR:(-1)] Check failed: false. 
+[0506/175511.528:ERROR:gpu_channel_manager.cc(909)] Failed to create GLES3 context, fallback to GLES2.
+[0506/175511.528:ERROR:(-1)] Check failed: false. 
+[0506/175511.528:ERROR:gpu_channel_manager.cc(920)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[0506/175511.528:ERROR:shared_image_stub.cc(518)] SharedImageStub: unable to create context
+[0506/175511.528:ERROR:gpu_channel.cc(608)] GpuChannel: Failed to create SharedImageStub
+[0506/175511.540:ERROR:(-1)] Check failed: false. 
+[0506/175511.540:ERROR:gpu_channel_manager.cc(909)] Failed to create GLES3 context, fallback to GLES2.
+[0506/175511.540:ERROR:(-1)] Check failed: false. 
+[0506/175511.540:ERROR:gpu_channel_manager.cc(920)] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[0506/175511.540:ERROR:shared_image_stub.cc(518)] SharedImageStub: unable to create context
+[0506/175511.540:ERROR:gpu_channel.cc(608)] GpuChannel: Failed to create SharedImageStub

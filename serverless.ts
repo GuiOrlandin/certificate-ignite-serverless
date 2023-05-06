@@ -1,7 +1,7 @@
 import type { AWS } from "@serverless/typescript";
 
 const serverlessConfiguration: AWS = {
-  service: "certificateignite",
+  service: "certificateigniteserverless",
   frameworkVersion: "3",
   plugins: [
     "serverless-esbuild",
@@ -27,7 +27,17 @@ const serverlessConfiguration: AWS = {
         Action: ["dynamodb:*"],
         Resource: ["*"],
       },
+      {
+        Effect: "Allow",
+        Action: ["s3:*"],
+        Resource: ["*"],
+      },
     ],
+  },
+
+  package: {
+    individually: false,
+    include: ["./src/templates/**"],
   },
 
   functions: {
@@ -43,8 +53,21 @@ const serverlessConfiguration: AWS = {
         },
       ],
     },
+
+    verifyCertificate: {
+      handler: "src/functions/verifyCertificate.handler",
+      events: [
+        {
+          http: {
+            path: "verifyCertificate/{id}",
+            method: "get",
+            cors: true,
+          },
+        },
+      ],
+    },
   },
-  package: { individually: true },
+
   custom: {
     esbuild: {
       bundle: true,
@@ -55,7 +78,7 @@ const serverlessConfiguration: AWS = {
       define: { "require.resolve": undefined },
       platform: "node",
       concurrency: 10,
-      external: ["chrome-aws-lambda"]
+      external: ["chrome-aws-lambda"],
     },
 
     dynamodb: {
